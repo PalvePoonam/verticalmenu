@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: "Permanent Marker", cursive;
+}
+nav{
+    background-color:grey;
+    width: 15%;
+    height: 100vh;
+    /* margin-top: 30px; */
+    /* position: relative; */
+}
+#cont{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 0px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+
+}
+a:hover{
+    background-color: aqua;
+    color: blue;
+}
+/*^ normal drop down */
+/* #menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color:plum;
+    position: relative;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+} */
+#brand{
+    padding: 0;
+    margin: 0;
+    background-color: pink;
+    position:absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+    width: 90%;
+}
+#lap:hover #brand{
+    display: block;
+}
+#lap{
+    position: relative;
+}
+#brand {
+    list-style-type: none;
+}
+/* ! right side drop down */
+#menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    background-color: plum;
+    position:absolute;
+    top: 0px;
+    left: 100%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #menu{
+    display: block;
+}
+#imenu{
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+    background-color: black ;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    width: 100%;
+    display: none;
+}
+#idrop:hover #imenu{
+    display: block;
+}
+#imenu li a{
+    border-bottom: 1px solid white;
+}
+#idrop{
+    position: relative;
+}
+#sam{
+    list-style-type: none;
+}
